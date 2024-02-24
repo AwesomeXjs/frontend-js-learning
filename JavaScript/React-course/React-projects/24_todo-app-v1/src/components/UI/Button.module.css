@@ -1,0 +1,13 @@
+.buttonMain {
+	padding: 0 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+	font-size: 20px;
+	background-color: #f2f2d6;
+}
+.buttonMain:active {
+	background-color: black;
+	color: white;
+}

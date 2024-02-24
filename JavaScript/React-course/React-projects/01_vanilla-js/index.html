@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vanilla JS</title>
+		<style>
+			.app {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			.green-btn {
+				color: white;
+				background-color: green;
+				transition: all 0.2s ease-out;
+			}
+			.black-btn {
+				color: white;
+				background-color: black;
+				transition: all 0.2s ease-out;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="app">
+			<button id="my-btn" onclick="changeBtnText('my-btn')">Click me</button>
+		</div>
+
+		<script>
+			const changeBtnText = id => {
+				const toggleButton = document.getElementById(id)
+				if (toggleButton.innerHTML !== 'Hello from vanilla HTML') {
+					toggleButton.className = 'green-btn'
+					toggleButton.innerHTML = 'Hello from vanilla HTML'
+				} else if (toggleButton.innerHTML === 'Hello from vanilla HTML') {
+					toggleButton.innerHTML = 'Hello this is button'
+					toggleButton.className = 'black-btn'
+				}
+			}
+		</script>
+	</body>
+</html>

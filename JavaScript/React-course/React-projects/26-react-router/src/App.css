@@ -1,0 +1,43 @@
+.App {
+	text-align: center;
+}
+h1 {
+	font-size: 90px;
+	margin-top: 20px;
+}
+button {
+	padding: 15px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin: 20px;
+	border: none;
+	cursor: pointer;
+}
+button:active {
+	background-color: black;
+	color: white;
+}
+/* used by default with navlink */
+/* .active {
+	color: white;
+} */
+.activeLink {
+	color: white;
+}
+nav a {
+	margin-right: 10px;
+}
+
+.courses-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+}
+.courses-wrapper a {
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.courses-wrapper a:hover {
+	text-decoration: underline;
+}

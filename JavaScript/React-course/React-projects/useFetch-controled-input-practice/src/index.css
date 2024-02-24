@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+button {
+	padding: 10px 30px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 1px solid aquamarine;
+	margin-bottom: 50px;
+}
+button:active {
+	background-color: black;
+	color: white;
+	border: 1px solid yellow;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
